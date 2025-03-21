@@ -42,9 +42,9 @@
 }
 
 section {
-    padding: 3rem 2rem;
-    margin: 0 auto;
-    max-width: 1200px;
+  padding: 3rem 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .header {
@@ -78,41 +78,126 @@ section {
 }
 
 .header section nav a:hover {
-    color: var(--main-color);
-    border-bottom: 0.1rem solid var(--main-color);
-    padding-bottom: 0.5rem;
-
+  color: var(--main-color);
+  border-bottom: 0.1rem solid var(--main-color);
+  padding-bottom: 0.5rem;
 }
 
 .caixa-principal {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .caixa-principal div {
-    max-width: 60rem;
+  max-width: 60rem;
 }
 
 .caixa-principal div h3 {
-    color: #fff;
-    font-size: 6rem;
-    text-transform: uppercase;
+  color: #fff;
+  font-size: 6rem;
+  text-transform: uppercase;
 }
 
 .caixa-principal div p {
-    font-size: 2rem;
-    color: #fff;
-    font-weight: lighter;
-    padding: 1rem 0;
-    line-height: 1.8;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: lighter;
+  padding: 1rem 0;
+  line-height: 1.8;
 }
 
-.caixa-principal div a {
-    background-color: var(--main-color);
-    cursor: pointer;
-    margin-top: 1rem;
-    font-size: 1.7rem;
-    color: #fff;
-    padding: 1rem 3rem;
+.botao-link {
+  background-color: var(--main-color);
+  cursor: pointer;
+  margin-top: 2rem;
+  display: inline-block;
+  font-size: 1.7rem;
+  color: #fff;
+  padding: 1rem 3rem;
+  border: none;
+  transition: 0.3s linear;
+}
+
+.caixa-principal div a:hover {
+  letter-spacing: 0.1rem;
+}
+
+.titulo {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 3.5rem;
+  font-size: 4rem;
+}
+
+.titulo span {
+  color: var(--main-color);
+}
+
+.caixa-sobre .sobre-container {
+  display: flex;
+  align-items: center;
+  background-color: var(--black);
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.caixa-sobre .sobre-container .sobre-imagem {
+  flex: 1 1 45rem;
+}
+
+.caixa-sobre .sobre-container .sobre-imagem {
+  width: 100%;
+}
+
+.imagem1 {
+  width: 570px;
+  height: 470px;
+}
+
+.caixa-sobre .sobre-container .sobre-texto {
+  flex: 1 1 45rem;
+  padding: 2rem;
+}
+
+.caixa-sobre .sobre-container .sobre-texto h3 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.caixa-sobre .sobre-container .sobre-texto p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #fff;
+  line-height: 1.8;
+  padding: 1rem 0;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 20px;
+    z-index: 4;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mascara-modal {
+  visibility: hidden;
+  transition: visibility 1s linear;
+  z-index: 3;
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    109deg,
+    rgba(10, 12, 16, 0.99) 15%,
+    rgba(10, 12, 16, 0.7) 50%,
+    rgba(10, 12, 16, 0.99) 85%
+  );
 }
