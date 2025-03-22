@@ -1,6 +1,81 @@
+# Café Aconchego - Site de Cafeteria
+
+Bem-vindo ao repositório do Café Aconchego, um site moderno e responsivo que simula uma cafeteria acolhedora. Este projeto foi desenvolvido para proporcionar uma experiência digital envolvente, destacando a atmosfera aconchegante e os produtos especiais da cafeteria.
+
+🚀 Visão Geral
+O Café Aconchego é um site que combina design elegante, interatividade e responsividade para oferecer uma experiência agradável aos usuários. O site inclui:
+
+Vídeo de fundo: Um vídeo em loop de café para criar uma atmosfera imersiva.
+
+Seções informativas: Apresenta informações sobre a cafeteria, seu cardápio e sua história.
+
+Modal de endereço: Um modal interativo que exibe o endereço da cafeteria com um mapa do Google Maps integrado.
+
+Design responsivo: Funciona perfeitamente em dispositivos móveis, tablets e desktops.
+
+✨ Funcionalidades
+Vídeo de Fundo:
+
+Um vídeo em loop de café é exibido como plano de fundo, criando uma atmosfera relaxante.
+
+Navegação Simples:
+
+Menu de navegação fixo no topo da página, com links para as seções Home, Sobre e Endereço.
+
+Seção "Sobre Nós":
+
+Apresenta a história da cafeteria e o que torna seu café especial, com imagens e textos envolventes.
+
+Modal de Endereço:
+
+Ao clicar no botão Endereço, um modal é exibido com um mapa do Google Maps integrado.
+
+O modal é responsivo e funciona bem em dispositivos móveis.
+
+Design Responsivo:
+
+O site foi projetado para se adaptar a diferentes tamanhos de tela, garantindo uma experiência consistente em dispositivos móveis, tablets e desktops.
+
+🛠️ Tecnologias Utilizadas
+HTML5: Estrutura do site.
+
+CSS3: Estilização e design responsivo.
+
+JavaScript: Interatividade do modal e funcionalidades dinâmicas.
+
+Google Fonts: Fontes personalizadas (Nunito e Roboto).
+
+Google Maps API: Integração do mapa no modal de endereço.
+
+🎨 Design e Estilo
+O design do site foi pensado para transmitir a atmosfera acolhedora de uma cafeteria. As cores e fontes foram escolhidas para criar uma experiência visual agradável e moderna.
+
+Cores Principais:
+
+#d3ad7f (dourado claro) para destaques.
+
+#010103 (preto) para o fundo e textos.
+
+Gradientes suaves para sobreposições.
+
+# Fontes:
+
+Roboto: Para textos gerais.
+
+Nunito: Para títulos e destaques.
+
+
+🤝 Referências
+
+Me basiei no projeto no video do canal DevClub.
+
+Link do vide: https://www.youtube.com/watch?v=vXS7yoE_C1M
+
+Canal: https://www.youtube.com/@canaldevclub
 
 
 
+#Imagens do Site 
 
 
 ![Image](https://github.com/user-attachments/assets/d73b7771-8d32-4c74-8614-77fa68f50202)
