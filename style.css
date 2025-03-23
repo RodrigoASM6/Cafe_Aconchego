@@ -204,19 +204,25 @@ section {
 
 
 @media (max-width: 768px) {
+
+
   .modal iframe {
       display: none; /* Esconde o iframe por padrão */
+
   }
 
   .modal.ativo iframe {
       display: block; /* Mostra o iframe quando o modal estiver ativo */
+      width: 100vw;
   }
 
   .modal {
       left: -100%; /* Move o modal para fora da tela por padrão */
+      display: none;
   }
 
   .modal.ativo {
       left: 50%; /* Traz o modal para o centro quando ativo */
+      display: block;
   }
 }
